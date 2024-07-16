@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="icon" href="./assets/img/alura.svg">
+        <script src="./assets/js/script.js" async></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" async></script>
+        <title>Aluraflix</title>
+    </head>
+    <body>
+        <main>
+            <div id="div-adicionar-filme">
+                <div>
+                    <img id="alura-logo" src="./assets/img/alura.svg" alt="Logo AluraFlix">
+                    <img id="flix-logo"src="./assets/img/flix.png" alt="Logo AluraFlix">
+                </div>
+                <div>
+                    <input class="input-adicionar-filme" id="nome-do-novo-filme" placeholder="Nome do Filme"><br>
+                    <input class="input-adicionar-filme" id="url-do-novo-filme" placeholder="URL da Capa em PNG/JPG"><br>
+                    <button id="button-adicionar-filme" type="button" onclick="adicionarFilme()">Adicionar Filme</button>
+                </div>
+            </div>
+            <div id="lista-de-filmes"></div>
+        </main>
+        
+    </body>
+</html>
